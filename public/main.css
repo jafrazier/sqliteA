@@ -1,0 +1,29 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  width: 100%;
+  text-align: center;
+  border-bottom: black 2px solid;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: .4em;
+  border-radius: 10px;
+  padding: .3em .2em .2em .2em;
+}
+.nav li:hover {
+  background: rgba(0,0,0,.6)
+}
+
+.nav li a{
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  text-transform: uppercase;
+
+
+}

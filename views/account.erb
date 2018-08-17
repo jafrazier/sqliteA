@@ -1,0 +1,7 @@
+<h1>My Account</h1>
+
+<% if session[:user] == nil %>
+  <p>No one is logged in</p>
+<% elsif session[:user] != nil %>
+ <p>welcome back <%= session[:user] %></p>
+<% end %>

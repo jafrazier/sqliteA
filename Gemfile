@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+gem 'faker'
 gem 'sinatra'
 gem 'activerecord'
 gem 'sinatra-activerecord'
